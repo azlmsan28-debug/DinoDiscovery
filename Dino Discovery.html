@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinosaur Discovery</title>
+  <link rel="stylesheet" href="DinoDiscovery.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🦕 Dinosaur Discovery 🦖</h1>
+      <nav>
+        <button onclick="showPage('home')">Home</button>
+        <button onclick="showPage('species')">Species</button>
+        <button onclick="showPage('extinction')">Extinction</button>
+        <button onclick="showPage('facts')">Fun Facts</button>
+      </nav>
+    </header>
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page active">
+      <h2>Welcome to the Age of Dinosaurs</h2>
+      <p>Dinosaurs were remarkable reptiles that dominated Earth for over 165 million years during the Mesozoic Era. These magnificent creatures first appeared approximately 230 million years ago during the Triassic Period. They evolved into an incredible diversity of forms, from tiny chicken-sized species to massive giants that weighed over 70 tons. Dinosaurs inhabited every continent on Earth, adapting to various climates and environments. Their reign spanned three geological periods: the Triassic, Jurassic, and Cretaceous. Some walked on two legs while others moved on four, showcasing remarkable evolutionary adaptations. They ranged from fierce carnivores with razor-sharp teeth to gentle herbivores with specialized digestive systems. Many species developed unique features like horns, frills, armor plates, and elaborate crests. Despite their extinction 66 million years ago, dinosaurs continue to captivate our imagination and scientific curiosity. Their fossils provide invaluable insights into prehistoric life and Earth's ancient ecosystems.</p> 
+      <p>The study of dinosaurs, known as paleontology, has revolutionized our understanding of evolution and extinction. Scientists have discovered over 1,000 different dinosaur species, though many more likely existed. These ancient reptiles exhibited behaviors we're still learning about, including complex social structures and parenting instincts. Some dinosaurs were covered in feathers, revealing their close relationship to modern birds. Their sizes varied dramatically, from the tiny Microraptor to the colossal Argentinosaurus. Dinosaurs had diverse diets, with some being strict herbivores, others fierce carnivores, and some omnivores. They developed sophisticated hunting strategies and defensive mechanisms to survive. Many species lived in herds for protection, while others were solitary hunters. The discovery of dinosaur eggs and nests has provided insights into their reproductive behaviors. Modern technology like CT scans and computer modeling helps scientists reconstruct how these creatures looked, moved, and lived, bringing the prehistoric world to life in ways never before possible.</p>
+    </section>
+
+    <!-- SPECIES PAGE -->
+    <section id="species" class="page">
+      <h2>Dinosaur Species</h2>
+      <div class="species-grid"> 
+        <div class="species-card"> 
+          <div class="dino-icon">🦖</div> 
+          <h3>Tyrannosaurus Rex</h3> 
+          <p>The "king of dinosaurs" was one of the largest carnivores ever. T-Rex had powerful jaws with 60 serrated teeth, some up to 12 inches long. It could bite with a force of 12,800 pounds, crushing bone with ease.</p> 
+        </div> 
+
+        <div class="species-card"> 
+          <div class="dino-icon">🦕</div> 
+          <h3>Brachiosaurus</h3> 
+          <p>This gentle giant was one of the tallest dinosaurs, reaching heights of 40-50 feet. Its long neck allowed it to feed on vegetation other herbivores couldn't reach. It weighed up to 80 tons.</p> 
+        </div> 
+
+        <div class="species-card"> 
+          <div class="dino-icon">🦴</div> 
+          <h3>Triceratops</h3> 
+          <p>Known for its three distinctive horns and large bony frill, Triceratops was a herbivore that could defend itself against predators. It had a powerful beak for stripping vegetation and hundreds of teeth for chewing.</p> 
+        </div> 
+
+        <div class="species-card"> 
+          <div class="dino-icon">🦅</div> 
+          <h3>Velociraptor</h3> 
+          <p>Despite being smaller than portrayed in movies, Velociraptors were intelligent pack hunters. They had a distinctive sickle-shaped claw on each foot and were covered in feathers, making them close relatives of modern birds.</p> 
+        </div> 
+
+        <div class="species-card"> 
+          <div class="dino-icon">🦎</div> 
+          <h3>Stegosaurus</h3> 
+          <p>Famous for its distinctive back plates and spiked tail, Stegosaurus was a herbivore from the Jurassic Period. The plates may have been used for temperature regulation or display, while the tail spikes provided defense.</p> 
+        </div> 
+
+        <div class="species-card"> 
+          <div class="dino-icon">🐊</div> 
+          <h3>Spinosaurus</h3> 
+          <p>The largest known carnivorous dinosaur, Spinosaurus had a distinctive sail on its back formed by elongated spines. It was semi-aquatic, hunting both on land and in water, with crocodile-like jaws perfect for catching fish.</p> 
+        </div> 
+      </div>
+    </section>
+
+    <!-- EXTINCTION PAGE -->
+    <section id="extinction" class="page">
+      <h2>The Great Extinction</h2>
+      <p>The extinction of dinosaurs 66 million years ago marks one of the most dramatic events in Earth's history. The leading theory suggests a massive asteroid, approximately 6 miles wide, struck the Yucatan Peninsula in Mexico, creating the Chicxulub crater. The impact released energy equivalent to billions of atomic bombs, triggering catastrophic global consequences. Massive tsunamis swept across coastlines, while earthquakes shook the planet. The impact threw billions of tons of debris, dust, and sulfur into the atmosphere, blocking sunlight for months or even years. This created a "nuclear winter" effect, causing temperatures to plummet dramatically. Without sunlight, photosynthesis ceased, collapsing food chains from the bottom up. Plants died, followed by herbivores, and then carnivores. Acid rain poisoned water sources and damaged ecosystems further. The darkness and cold persisted long enough to eliminate approximately 75% of all species on Earth. Only smaller animals that could burrow, hibernate, or survive on limited resources made it through this catastrophic period.</p> 
+      <p>However, the asteroid impact wasn't the only factor in the dinosaurs' demise. Volcanic activity in what is now India was already causing environmental stress through massive lava flows known as the Deccan Traps. These eruptions released enormous amounts of carbon dioxide and sulfur dioxide, contributing to climate instability. Sea levels were changing, altering habitats and food availability. Some scientists believe dinosaurs were already in decline before the asteroid struck, making them more vulnerable to extinction. Interestingly, not all dinosaurs went extinct—birds are direct descendants of theropod dinosaurs and survived the catastrophe. Small mammals also survived, eventually evolving to fill the ecological niches left vacant by dinosaurs. The extinction event, while devastating, paved the way for the age of mammals and ultimately human evolution. Today, studying this mass extinction helps scientists understand current biodiversity threats and climate change impacts. The dinosaur extinction serves as a powerful reminder of how quickly dominant life forms can disappear when faced with rapid environmental changes.</p>
+    </section>
+
+    <!-- FUN FACTS PAGE -->
+    <section id="facts" class="page">
+      <h2 id="facts-title">Amazing Dinosaur Facts</h2>
+
+      <div class="fact-item">
+        <h3>🦴 Birds Are Living Dinosaurs</h3>
+        <p>Modern birds are direct descendants of theropod dinosaurs, making them the only dinosaur lineage to survive the mass extinction. Every chicken, eagle, and penguin you see today is technically a dinosaur!</p>
+      </div>
+
+      <div class="fact-item">
+        <h3>🥚 Dinosaur Eggs Were Surprisingly Small</h3>
+        <p>Even the largest dinosaurs laid relatively small eggs, typically no bigger than a basketball. This is because eggshells need to be thin enough for baby dinosaurs to break through, limiting their maximum size.</p>
+      </div>
+
+      <div class="fact-item">
+        <h3>🦷 T-Rex Had Banana-Sized Teeth</h3>
+        <p>Tyrannosaurus Rex teeth could grow up to 12 inches long, about the size of a banana! Unlike sharp knife-like teeth, they were thick and designed to crush bone, making T-Rex one of the most powerful biters ever.</p>
+      </div>
+
+      <div class="fact-item">
+        <h3>🧠 Some Dinosaurs Had Tiny Brains</h3>
+        <p>Stegosaurus, despite being the size of a bus, had a brain only about the size of a walnut. However, brain size doesn't always indicate intelligence—these creatures survived for millions of years!</p>
+      </div>
+
+      <div class="fact-item">
+        <h3>🏃 Velociraptors Were Turkey-Sized</h3>
+        <p>Real Velociraptors were much smaller than depicted in movies, standing only about 2 feet tall and 6 feet long—roughly the size of a large turkey. They were covered in feathers and likely couldn't open doors!</p>
+      </div>
+
+      <div class="fact-item">
+        <h3>🦕 The Longest Dinosaur Name</h3>
+        <p>Micropachycephalosaurus holds the record for the longest dinosaur name with 23 letters. Ironically, it means "tiny thick-headed lizard" and was one of the smallest dinosaurs discovered.</p>
+      </div>
+
+      <div class="fact-item">
+        <h3>💨 Dinosaurs May Have Contributed to Climate Change</h3>
+        <p>Scientists estimate that sauropods (long-necked dinosaurs) produced so much methane gas from digestion that it may have warmed the prehistoric climate, similar to how modern cattle affect our atmosphere.</p>
+      </div>
+
+      <div class="fact-item">
+        <h3>🎨 We Don't Know Their True Colors</h3>
+        <p>Fossils don't preserve color, so all dinosaur colors in movies and books are educated guesses. However, scientists have recently found pigment cells in some feathered dinosaur fossils, revealing some species had reddish-brown and black coloring.</p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function showPage(pageId) {
+      const pages = document.querySelectorAll('.page');
+      pages.forEach(page => page.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+    }
+  </script>
+</body>
+</html>

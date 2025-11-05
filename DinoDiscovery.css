@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2d5a3d;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #8b5a2b;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+  color: #ffd700;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav button {
+  background-color: #2d5a3d;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #ffd700;
+  color: #2d5a3d;
+}
+
+.page {
+  display: none;
+  background-color: #8b5a2b;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.page.active {
+  display: block;
+}
+
+.species-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.species-card {
+  background-color: #2d5a3d;
+  border: 2px solid #ffd700;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.species-card h3 {
+  color: #ffd700;
+  margin-top: 0;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
